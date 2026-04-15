@@ -77,7 +77,7 @@ def send_command(port: str, baudrate: int, frame: bytes, timeout=1.0):
 
 if __name__ == "__main__":
     # ===== 根据你的现场修改 =====
-    PORT = "COM3"        # 改成你的实际串口
+    PORT = "COM7"        # 改成你的实际串口
     BAUDRATE = 9600      # 如果你当前读取程序正常，就先保持一致
     SLAVE_ID = 1         # 从站地址，按现场设备改
     COIL_ADDR = 3        # 手册示例是 0x0003（第4个开关）
