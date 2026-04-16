@@ -1,0 +1,159 @@
+{
+  "success": true,
+  "port": "COM7",
+  "baudrate": 9600,
+  "slave_id": 1,
+  "scan_params": {
+    "start": 0,
+    "start_hex": "0x0000",
+    "end": 63,
+    "end_hex": "0x003F",
+    "block_size": 8,
+    "total_regs_attempted": 64
+  },
+  "blocks": [
+    {
+      "start": 0,
+      "start_hex": "0x0000",
+      "count": 8,
+      "registers": [
+        227,
+        228,
+        0,
+        228,
+        0,
+        0,
+        0,
+        0
+      ],
+      "response": "01 03 00 00 10 00 E3 00 E4 00 00 00 E4 00 00 00 00 00 00 00 00 6A 94",
+      "crc_ok": true,
+      "frame_type": "echo_addr"
+    },
+    {
+      "start": 8,
+      "start_hex": "0x0008",
+      "count": 8,
+      "registers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "response": "01 03 00 08 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 C0 5E",
+      "crc_ok": true,
+      "frame_type": "echo_addr"
+    },
+    {
+      "start": 16,
+      "start_hex": "0x0010",
+      "count": 8,
+      "registers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "response": "01 03 00 10 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 46 F9",
+      "crc_ok": true,
+      "frame_type": "echo_addr"
+    },
+    {
+      "start": 24,
+      "start_hex": "0x0018",
+      "count": 8,
+      "registers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "response": "01 03 00 18 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 C4 9B",
+      "crc_ok": true,
+      "frame_type": "echo_addr"
+    },
+    {
+      "start": 32,
+      "start_hex": "0x0020",
+      "count": 8,
+      "error": "响应为空或长度过短"
+    },
+    {
+      "start": 40,
+      "start_hex": "0x0028",
+      "count": 8,
+      "error": "响应为空或长度过短"
+    },
+    {
+      "start": 48,
+      "start_hex": "0x0030",
+      "count": 8,
+      "error": "响应为空或长度过短"
+    },
+    {
+      "start": 56,
+      "start_hex": "0x0038",
+      "count": 8,
+      "error": "响应为空或长度过短"
+    }
+  ],
+  "register_map": {
+    "0x0000": 227,
+    "0x0001": 228,
+    "0x0002": 0,
+    "0x0003": 228,
+    "0x0004": 0,
+    "0x0005": 0,
+    "0x0006": 0,
+    "0x0007": 0,
+    "0x0008": 0,
+    "0x0009": 0,
+    "0x000A": 0,
+    "0x000B": 0,
+    "0x000C": 0,
+    "0x000D": 0,
+    "0x000E": 0,
+    "0x000F": 0,
+    "0x0010": 0,
+    "0x0011": 0,
+    "0x0012": 0,
+    "0x0013": 0,
+    "0x0014": 0,
+    "0x0015": 0,
+    "0x0016": 0,
+    "0x0017": 0,
+    "0x0018": 0,
+    "0x0019": 0,
+    "0x001A": 0,
+    "0x001B": 0,
+    "0x001C": 0,
+    "0x001D": 0,
+    "0x001E": 0,
+    "0x001F": 0
+  },
+  "confirmed_fields": {
+    "total_voltage_v": 227,
+    "leakage_current_ma": 22.8,
+    "total_power_w": 0,
+    "module_temperature_c": 22.8,
+    "line_current_a": 0.0,
+    "alarm_status": 0,
+    "energy_low": 0,
+    "energy_high": 0,
+    "energy_kwh": 0.0
+  },
+  "alarms": [],
+  "timestamp": 1776309110
+}

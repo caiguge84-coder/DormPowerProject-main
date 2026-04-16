@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-04-16 11:11:50",
+  "open_state_file": "D:\\jienengjianpai\\DormPowerProject-main-main\\backend\\compare_data\\state_open.json",
+  "close_state_file": "D:\\jienengjianpai\\DormPowerProject-main-main\\backend\\compare_data\\state_close.json",
+  "scan_range": "0x0000~0x003F",
+  "total_addresses_scanned": 32,
+  "differences_found": 0,
+  "differences": []
+}
